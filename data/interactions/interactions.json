@@ -1,0 +1,30 @@
+[
+  {
+    "strName" : "ACTInjectDrugAdranalineDirect",
+    "strTitle" : "Inject Meds",
+    "strDesc" : "[us] [decides] to inject [them] with adrenaline.",
+    "strTooltip" : "Injects medication to boost cardiovascular function and awareness.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 0,    
+    "strAnim"           : "Tooling",
+    "strBubble"         : null,
+    "aInverse"          : [
+        
+    ],
+    "fDuration"         : 0.00027,
+    "strThemType"       : "Other",
+    "strRaiseUI"        : null,
+    "nLogging"          : 1,
+    "bOpener"           : true,
+    "bIgnoreFeelings"   : true,
+    "CTTestUs"          : "TIsHumanAwake",
+    "CTTestThem"        : "TIsHumanUnconscious",
+    "LootCTsUs"         : "CONDAdrenalineInjectedUs",
+    "LootCTsThem"       : "CONDAdrenalineInjectedThem",
+    "aLootItms"         : [
+        "use,CT[us],true"
+    ],
+    "objLootModeSwitch"    : null
+  }
+]

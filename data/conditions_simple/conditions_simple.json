@@ -1,0 +1,10 @@
+[
+  {
+    "strName" : "Simple Conditions",
+    "aValues" : [
+        "IsAlkemia","Alkemia","[us] [is] an Alkemia Pharmaceutical product.","2","2","Neutral","false",
+        "IsInjector01Capsule","Injector Capsule","[us] [is] a medical injector capsule.","2","2","Neutral","false",
+        "IsAdrenalineMed","Adrenaline Med","[us] [is] an adrenaline medication.","2","2","Neutral","false"
+    ]
+  }
+]

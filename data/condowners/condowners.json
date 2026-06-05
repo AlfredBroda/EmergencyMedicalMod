@@ -1,0 +1,154 @@
+[
+{
+    "strName" : "ItmToolInjector01",
+    "strNameShort" : "Injector",
+    "strNameFriendly" : "Alkemia Medical Injector",
+    "strDesc" : "An Alkemia Pharmaceutical pneumatic subdermal injector, for administering various medications.",
+    "strItemDef" : "ItmToolInjector01",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "aInteractions" : [
+        "ACTInjectDrugAdranalineDirect",
+        "Inventory",
+        "DropItem",
+        "PickupItem"
+    ],
+    "aStartingConds" : [
+        "IsAlkemia=1.0x1",
+        "IsHandheld=1.0x1.0",
+        "IsRigid=1.0x1.0",
+        "IsSolid=1.0x1.0",
+        "IsPocketable=1.0x1.0",
+        "IsClippable=1.0x1.0",
+        "StatMass=1.0x0.40",
+        "StatBasePrice=1.0x60.0",
+        "StatDamageMax=1.0x6",
+        "StatDismantleProgressMax=1.0x50",
+        "IsTechnology=1.0x1",
+        "IsMechanical=1.0x1",
+        "IsCategoryTools=1.0x1"
+    ],
+    "aUpdateCommands" : [
+        "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapCondTolerance"       : [],
+    "strContainerCT"    : "TIsFitContainerInjector01",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+    "mapAltItemDefs"  : [
+        "IsInjector01Capsule", "ItmToolInjector01Full"
+    ],
+    "mapAltSlotImgs"  : [
+        "ItmToolInjector01Full", "paperdoll/held/bodyInjector01LFull"
+    ],
+    "mapChargeProfiles"  : [
+        "Melee","MeleeAttackDefaultFragile"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/held/portInjector01Full",
+    "strAudioEmitter": "ItmSmallPlasticGeneralSound",
+    "mapSlotEffects" : [
+      "heldL","HeldItmToolInjector01L",
+      "heldR","HeldItmToolInjector01R"
+    ],
+    "jsonPI"        : null
+  },
+  {
+    "strName" : "ItmDrugAdrenaline",
+    "strNameShort" : "Adrenaline",
+    "strNameFriendly" : "Adrenaline Capsule",
+    "strItemDef" : "ItmDrugAdrenaline",
+    "strDesc" : "A compact adrenaline capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+        "DropItem",
+        "DropItemStack",
+        "PickupItem",
+        "PickupItemStack"
+    ],
+    "aStartingConds" : [
+        "IsDrug=1.0x1",
+        "IsAlkemia=1.0x1",
+        "IsInjector01Capsule=1.0x1",
+        "IsWaterproof=1.0x1",
+        "IsFireproof=1.0x1",
+        "IsPocketable=1.0x1.0",
+        "IsPrescription=1.0x1",
+        "IsSolid=1.0x1.0",
+        "StatBasePrice=1x80.0",
+        "StatMass=1.0x0.05",
+        "StatDamageMax=1.0x4",
+        "IsCategoryMedical=1.0x1",
+        "DcDrug03=1.0x1"
+    ],
+    "aStartingCondRules": [],
+    "aSlotsWeHave": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+        "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+        "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/held/portBatteryDisp01",
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound",
+    "mapSlotEffects" : [
+        "heldL","HeldItmDefaultL",
+        "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmDrugSedative",
+    "strNameShort" : "Sedative",
+    "strNameFriendly" : "Sedative Capsule",
+    "strItemDef" : "ItmDrugSedative",
+    "strDesc" : "A compact sedative capsule for use with an injector for use on the rowdy patients. WARNING: May cause drowsiness, confusion, and other side effects.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 10,
+    "aInteractions" : [
+        "DropItem",
+        "DropItemStack",
+        "PickupItem",
+        "PickupItemStack"
+    ],
+    "aStartingConds" : [
+        "IsDrug=1.0x1",
+        "IsAlkemia=1.0x1",
+        "IsInjector01Capsule=1.0x1",
+        "IsWaterproof=1.0x1",
+        "IsFireproof=1.0x1",
+        "IsPocketable=1.0x1.0",
+        "IsPrescription=1.0x1",
+        "IsSolid=1.0x1.0",
+        "StatBasePrice=1x80.0",
+        "StatMass=1.0x0.05",
+        "StatDamageMax=1.0x4",
+        "IsCategoryMedical=1.0x1",
+        "DcDrug03=1.0x1"
+    ],
+    "aStartingCondRules": [],
+    "aSlotsWeHave": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+        "Melee","MeleeAttackDefaultFragile"
+    ],
+    "aUpdateCommands" : [
+        "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/held/portBatteryDisp01",
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound",
+    "mapSlotEffects" : [
+        "heldL","HeldItmDefaultL",
+        "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : null
+  }
+]

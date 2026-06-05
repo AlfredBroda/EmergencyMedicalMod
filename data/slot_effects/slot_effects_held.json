@@ -1,0 +1,27 @@
+[
+  {
+    "strName" : "HeldItmToolInjector01L",
+    "strSlotImage" : "paperdoll/held/bodyInjector01L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultL",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  },
+  {
+    "strName" : "HeldItmToolInjector01R",
+    "strSlotImage" : "paperdoll/held/bodyInjector01L",
+    "strSlotImageUnder" : null,
+    "strIASlot" : null,
+    "strIAUnslot" : null,
+    "strIASlotParents" : "SLOTWieldDefaultR",
+    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "bMirror" : true,
+    "bWholeBody" : true,
+    "mapMeshTextures" : [
+    ]
+  }
+]

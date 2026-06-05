@@ -1,0 +1,44 @@
+[
+    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenaline=0.5x1", "ItmDrugSedative=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+    {
+      "strName" : "ACTInjectorDestroy",
+      "aCOs"    : [
+        "MSDestroyInjector=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "interaction"
+    },
+    {
+      "strName" : "ItmInjectorComponentsShell",
+      "aCOs"    : [
+        "ItmScrapTrash=1.0x1",
+        "ItmPartsMechSmall01=0.5x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "item"
+    },
+    {
+      "strName" : "CONDAdrenalineInjectedThem", 
+      "aCOs" : [
+        "-StatSleep=1.0x1.75",
+        "-IsSubdued=1.0x1",
+        "-Unconscious=1.0x1",
+        "-Stunned=1.0x1.0",
+        "Recovering=1.0x1",
+        "StatPain=1.0x20.0"
+      ], 
+      "aLoots" : [], 
+      "strType" : "trigger" 
+    },
+    {
+      "strName" : "CONDAdrenalineInjectedUs", 
+      "aCOs" : [
+        "TUpStatAchievement=1.0x5",
+        "TUpStatAltruism=1.0x2"
+      ], 
+      "aLoots" : [], 
+      "strType" : "trigger"
+    }
+]

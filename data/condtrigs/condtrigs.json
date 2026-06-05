@@ -1,0 +1,4 @@
+[
+    { "strName" : "TIsFitContainerInjector01", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsInjector01Capsule" ], "aForbids" : [ ], "aTriggers" : [ "TIsFitContainerSolid" ], "bAND" : true },
+    { "strName" : "TIsHumanUnconscious", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "Unconscious" ], "aForbids" : [ "IsDead" ], "aTriggers" : [ "TIsHumanAlive" ], "bAND" : true }
+]

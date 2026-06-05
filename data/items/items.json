@@ -1,0 +1,96 @@
+[
+  {
+    "strName" : "ItmToolInjector01",
+    "strImg"  : "ItmToolInjector01",
+    "strImgNorm"  : "ItmToolInjector01n",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintSludge",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmToolInjector01Full",
+    "strImg"  : "ItmToolInjector01Full",
+    "strImgNorm"  : "ItmToolInjector01Fulln",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintSludge",
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]
+  },
+  {
+    "strName" : "ItmDrugAdrenaline",
+    "strImg"  : "ItmDrugAdrenaline",
+    "strImgNorm"  : "ItmDrugAdrenalinen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintSludge",
+    "bLerp" : false,
+    "fDmgComplexity" : 800,
+    "nDmgMode" : 1,
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]  
+  },
+  {
+    "strName" : "ItmDrugSedative",
+    "strImg"  : "ItmDrugAdrenaline",
+    "strImgNorm"  : "ItmDrugAdrenalinen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintSludge",
+    "bLerp" : false,
+    "fDmgComplexity" : 800,
+    "nDmgMode" : 1,
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]  
+  }
+]
