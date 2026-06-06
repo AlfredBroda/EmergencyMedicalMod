@@ -1,30 +1,170 @@
 [
   {
-    "strName" : "ACTInjectDrugAdranalineDirect",
+    "strName" : "ACTInjectDrugAdranaline",
     "strTitle" : "Inject Meds",
     "strDesc" : "[us] [decides] to inject [them] with adrenaline.",
     "strTooltip" : "Injects medication to boost cardiovascular function and awareness.",
     "strActionGroup" : "Use",
     "strTargetPoint" : "use",
-    "fTargetPointRange" : 0,    
-    "strAnim"           : "Tooling",
-    "strBubble"         : null,
-    "aInverse"          : [
-        
+    "fTargetPointRange" : 0,
+    "strAnim" : "Tooling",
+    "strBubble" : null,
+    "aInverse" : [
+      "ACTInjectDrugAdranalineAllow",
+      "ACTInjectDrugCancel",
+      "ACTInjectDrugDone"
     ],
-    "fDuration"         : 0.00027,
-    "strThemType"       : "Other",
-    "strRaiseUI"        : null,
-    "nLogging"          : 1,
-    "bOpener"           : true,
-    "bIgnoreFeelings"   : true,
-    "CTTestUs"          : "TIsHumanAwake",
-    "CTTestThem"        : "TIsHumanUnconscious",
-    "LootCTsUs"         : "CONDAdrenalineInjectedUs",
-    "LootCTsThem"       : "CONDAdrenalineInjectedThem",
-    "aLootItms"         : [
-        "use,CT[us],true"
+    "fDuration" : 0.00027,
+    "strThemType" : "Other",
+    "strRaiseUI" : null,
+    "nLogging" : 1,
+    "bOpener" : true,
+    "bIgnoreFeelings" : true,
+    "CTTestUs" : "TIsHumanAwakeNotProne",
+    "CTTestThem" : "TIsHumanUnconscious",
+    "LootCTsUs" : "CONDAdrenalineInjectedUs",
+    "LootCTsThem" : "CONDAdrenalineInjectedThem",
+    "aLootItms" : [
+      "use,CT[us],true"
     ],
-    "objLootModeSwitch"    : null
+    "objLootModeSwitch" : null
+  },
+  {
+    "strName" : "ACTInjectDrugAdranalineAllow",
+    "strTitle" : "Injecting Adrenaline",
+    "strDesc" : "[us] [injects] [them].",
+    "strActionGroup" : "Work",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 1.5,
+    "strAnim" : "ShootPistol",
+    "strIdleAnim" : "Idle",
+    "strUseCase" : "Normal",
+    "strBubble" : "BblTouch",
+    "fDuration" : 0.00056,
+    "strThemType" : "Other",
+    "nLogging" : 1,
+    "bIgnoreFeelings" : true,
+    "strCancelInteraction" : "ACTInjectDrugCancel",
+    "aInverse" : [
+      "ACTInjectDrugAdranaline,[us],[them]",
+      "ACTInjectDrugDone,[us],[them]",
+      "ACTInjectDrugCancel,[us],[them]"
+    ],
+    "aLootItms" : [
+    ],
+    "LootCondsUs" : null,
+    "LootCondsThem" : null,
+    "LootVFXUs" : null,
+    "LootAudioUs" : null,
+    "CTTestUs" : "TIsHumanAwakeNotProne",
+    "CTTestThem" : "TIsHumanUnconscious"
+  },
+  {
+    "strName" : "ACTInjectDrugSedative",
+    "strTitle" : "Inject Sedative",
+    "strDesc" : "[us] [decides] to inject [them] with a sedative.",
+    "strTooltip" : "Injects medication to calm and sedate the patient.",
+    "strActionGroup" : "Use",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 0,
+    "strAnim" : "Tooling",
+    "strBubble" : null,
+    "aInverse" : [
+      "ACTInjectDrugSedativeAllow",
+      "ACTInjectDrugCancel",
+      "ACTInjectDrugDone"
+    ],
+    "fDuration" : 0.00027,
+    "strThemType" : "Other",
+    "strRaiseUI" : null,
+    "nLogging" : 1,
+    "bOpener" : true,
+    "bIgnoreFeelings" : true,
+    "CTTestUs" : "TIsHumanAwakeNotProne",
+    "CTTestThem" : "TIsHumanUnconscious",
+    "LootCTsUs" : "CONDSedativeInjectedUs",
+    "LootCTsThem" : "CONDSedativeInjectedThem",
+    "aLootItms" : [
+      "use,CT[us],true"
+    ],
+    "objLootModeSwitch" : null
+  },
+  {
+    "strName" : "ACTInjectDrugSedativeAllow",
+    "strTitle" : "Injecting Sedative",
+    "strDesc" : "[us] [injects] [them].",
+    "strActionGroup" : "Work",
+    "strTargetPoint" : "use",
+    "fTargetPointRange" : 1.5,
+    "strAnim" : "ShootPistol",
+    "strIdleAnim" : "Idle",
+    "strUseCase" : "Normal",
+    "strBubble" : "BblTouch",
+    "fDuration" : 0.00056,
+    "strThemType" : "Other",
+    "nLogging" : 1,
+    "bIgnoreFeelings" : true,
+    "strCancelInteraction" : "ACTInjectDrugCancel",
+    "aInverse" : [
+      "ACTInjectDrugSedative,[us],[them]",
+      "ACTInjectDrugDone,[us],[them]",
+      "ACTInjectDrugCancel,[us],[them]"
+    ],
+    "aLootItms" : [
+    ],
+    "LootCondsUs" : null,
+    "LootCondsThem" : null,
+    "LootVFXUs" : null,
+    "LootAudioUs" : null,
+    "CTTestUs" : "TIsHumanAwakeNotProne",
+    "CTTestThem" : "TIsHumanAwake"
+  },
+  {
+    "strName" : "ACTInjectDrugCancel",
+    "strTitle" : "Cancel injection",
+    "strDesc" : "[us] [stops] injecting [them].",
+    "strActionGroup" : "Work",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim" : "Idle",
+    "strIdleAnim" : "Idle",
+    "strUseCase" : "Normal",
+    "strBubble" : "BblTouch",
+    "fDuration" : 0.0,
+    "strThemType" : "Other",
+    "nLogging" : 1,
+    "bIgnoreFeelings" : true,
+    "aInverse" : [
+    ],
+    "aLootItms" : [
+    ],
+    "LootCondsUs" : null,
+    "LootCondsThem" : null,
+    "CTTestUs" : null,
+    "CTTestThem" : null
+  },
+  {
+    "strName" : "ACTInjectDrugDone",
+    "strTitle" : "Done injecting",
+    "strDesc" : "[us] [is] done injecting [them].",
+    "strActionGroup" : "Work",
+    "strTargetPoint" : null,
+    "fTargetPointRange" : 0,
+    "strAnim" : "Idle",
+    "strIdleAnim" : "Idle",
+    "strUseCase" : "Normal",
+    "strBubble" : "BblTouch",
+    "fDuration" : 0.0,
+    "strThemType" : "Other",
+    "nLogging" : 1,
+    "bIgnoreFeelings" : true,
+    "aInverse" : [
+    ],
+    "aLootItms" : [
+    ],
+    "LootCondsUs" : null,
+    "LootCondsThem" : null,
+    "CTTestUs" : null,
+    "CTTestThem" : null
   }
 ]

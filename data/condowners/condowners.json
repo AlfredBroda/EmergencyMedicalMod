@@ -8,7 +8,8 @@
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
-        "ACTInjectDrugAdranalineDirect",
+        "ACTInjectDrugAdranaline",
+        "ACTInjectDrugSedative",
         "Inventory",
         "DropItem",
         "PickupItem"
@@ -55,10 +56,10 @@
   },
   {
     "strName" : "ItmDrugAdrenaline",
-    "strNameShort" : "Adrenaline",
-    "strNameFriendly" : "Adrenaline Capsule",
+    "strNameShort" : "Adrenaline Capsule",
+    "strNameFriendly" : "Injector Adrenaline Capsule",
     "strItemDef" : "ItmDrugAdrenaline",
-    "strDesc" : "A compact adrenaline capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects.",
+    "strDesc" : "A compact adrenaline capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
     "strLoot"    : null,
     "nStackLimit"    : 10,
@@ -104,10 +105,10 @@
   },
   {
     "strName" : "ItmDrugSedative",
-    "strNameShort" : "Sedative",
-    "strNameFriendly" : "Sedative Capsule",
+    "strNameShort" : "Sedative Capsule",
+    "strNameFriendly" : "Injector Sedative Capsule",
     "strItemDef" : "ItmDrugSedative",
-    "strDesc" : "A compact sedative capsule for use with an injector for use on the rowdy patients. WARNING: May cause drowsiness, confusion, and other side effects.",
+    "strDesc" : "A compact sedative capsule for use with an injector for use on the rowdy patients. WARNING: May cause drowsiness, confusion, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
     "strLoot"    : null,
     "nStackLimit"    : 10,

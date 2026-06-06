@@ -23,22 +23,57 @@
       "strName" : "CONDAdrenalineInjectedThem", 
       "aCOs" : [
         "-StatSleep=1.0x1.75",
-        "-IsSubdued=1.0x1",
         "-Unconscious=1.0x1",
         "-Stunned=1.0x1.0",
         "Recovering=1.0x1",
-        "StatPain=1.0x20.0"
+        "StatPain=1.0x10.0"
       ], 
       "aLoots" : [], 
-      "strType" : "trigger" 
+      "strType" : "condition" 
     },
     {
       "strName" : "CONDAdrenalineInjectedUs", 
       "aCOs" : [
-        "TUpStatAchievement=1.0x5",
-        "TUpStatAltruism=1.0x2"
+        "StatAchievement=1.0x2",
+        "StatAltruism=1.0x20"
       ], 
       "aLoots" : [], 
+      "strType" : "condition"
+    },
+    {
+      "strName" : "CONDSedativeInjectedThem", 
+      "aCOs" : [
+        "Unconscious=1.0x1",
+        "StatPain=1.0x10.0"
+      ], 
+      "aLoots" : [], 
+      "strType" : "condition" 
+    },
+    {
+      "strName" : "CONDSedativeInjectedUs", 
+      "aCOs" : [
+        "StatAchievement=1.0x2",
+        "StatAltruism=1.0x5"
+      ], 
+      "aLoots" : [], 
+      "strType" : "condition"
+    },
+    {
+      "strName" : "CTDrugAdrenaline",
+      "aCOs"    : [
+        "TIsDrugAdrenaline=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "trigger"
+    },
+    {
+      "strName" : "CTDrugSedative",
+      "aCOs"    : [
+        "TIsDrugSedative=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
       "strType" : "trigger"
     }
 ]
