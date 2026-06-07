@@ -1,6 +1,7 @@
 [
     { "strName" : "TIsFitContainerInjector01", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsInjector01Capsule" ], "aForbids" : [ ], "aTriggers" : [ "TIsFitContainerSolid" ], "bAND" : true },
-    { "strName" : "TIsHumanUnconscious", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "Unconscious", "IsHuman" ], "aForbids" : [ "IsDead" ], "aTriggers" : [ ], "bAND" : true },
     { "strName" : "TIsDrugAdrenaline", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDrugAdrenaline" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
-    { "strName" : "TIsDrugSedative", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDrugSedative" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true }
+    { "strName" : "TIsDrugSedative", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsDrugSedative" ], "aForbids" : [ ], "aTriggers" : [ ], "bAND" : true },
+    { "strName" : "TIsHumanUnconscious", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "Unconscious", "IsHuman" ], "aForbids" : [ "IsDead" ], "aTriggers" : [ ], "bAND" : true },
+    { "strName" : "TCanBeInjected", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsHuman" ], "aForbids" : [ "IsDead" ], "aTriggers" : [ ], "bAND" : true }
 ]

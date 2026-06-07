@@ -20,40 +20,42 @@
       "strType" : "item"
     },
     {
-      "strName" : "CONDAdrenalineInjectedThem", 
+      "strName" : "CONDAdrenalineInjectedSubject", 
       "aCOs" : [
         "-StatSleep=1.0x1.75",
         "-Unconscious=1.0x1",
         "-Stunned=1.0x1.0",
-        "Recovering=1.0x1",
+        "ThreshStatSleepComfort=1.0x0.8",
         "StatPain=1.0x10.0"
       ], 
       "aLoots" : [], 
       "strType" : "condition" 
     },
     {
-      "strName" : "CONDAdrenalineInjectedUs", 
+      "strName" : "CONDAdrenalineInjectedUser", 
       "aCOs" : [
-        "StatAchievement=1.0x2",
-        "StatAltruism=1.0x20"
+        "TUpAchievement=1.0x2",
+        "TUpAltruism=1.0x20"
       ], 
       "aLoots" : [], 
       "strType" : "condition"
     },
     {
-      "strName" : "CONDSedativeInjectedThem", 
+      "strName" : "CONDSedativeInjectedSubject", 
       "aCOs" : [
         "Unconscious=1.0x1",
-        "StatPain=1.0x10.0"
+        "StatPain=1.0x10.0",
+        "ThreshStatSleep=1.0x0.8", 
+        "StatSleepComfort=1.0x10"
       ], 
       "aLoots" : [], 
       "strType" : "condition" 
     },
     {
-      "strName" : "CONDSedativeInjectedUs", 
+      "strName" : "CONDSedativeInjectedUser", 
       "aCOs" : [
-        "StatAchievement=1.0x2",
-        "StatAltruism=1.0x5"
+        "TUpAchievement=1.0x2",
+        "TUpAltruism=1.0x5"
       ], 
       "aLoots" : [], 
       "strType" : "condition"

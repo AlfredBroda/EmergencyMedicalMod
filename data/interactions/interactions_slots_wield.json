@@ -10,8 +10,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"ACTInjectDrugAdrenaline;AModeUse;CTWieldedL",
-			"ACTInjectDrugSedative;AModeUse;CTWieldedL"
+			"ACTInjectDrugAdrenaline;AModeBlank;CTWieldedL",
+            "ACTInjectDrugSedative;AModeBlank;CTWieldedL"
 		]
 	},
 	{
@@ -25,11 +25,10 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"ACTInjectDrugAdrenaline;AModeUse;CTWieldedR",
-			"ACTInjectDrugSedative;AModeUse;CTWieldedR"
+			"ACTInjectDrugAdrenaline;AModeBlank;CTWieldedR",
+            "ACTInjectDrugSedative;AModeBlank;CTWieldedR"
 		]
-	}
-	,
+	},
 	{
 		"strName" : "UNSLOTWieldInjector01L",
 		"strDesc" : "[them-subj] [is] no longer wielding [us].",
@@ -41,8 +40,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"-ACTInjectDrugAdrenaline;AModeUse;CTWieldedL",
-			"-ACTInjectDrugSedative;AModeUse;CTWieldedL"
+			"-ACTInjectDrugAdrenaline;AModeBlank;CTWieldedL",
+            "-ACTInjectDrugSedative;AModeBlank;CTWieldedL"
 		]
 	},
 	{
@@ -56,8 +55,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"-ACTInjectDrugAdrenaline;AModeUse;CTWieldedR",
-			"-ACTInjectDrugSedative;AModeUse;CTWieldedR"
+			"-ACTInjectDrugAdrenaline;AModeBlank;CTWieldedR",
+            "-ACTInjectDrugSedative;AModeBlank;CTWieldedR"
 		]
 	}
 ]

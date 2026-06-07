@@ -43,9 +43,8 @@
     ],
     "mapChargeProfiles"  : [
         "Melee","MeleeAttackDefaultFragile",
-        "Normal","InjectorAdrenaline",
-        "Normal","InjectorSedative"
-
+        "Adrenaline","InjectorAdrenaline",
+        "Sedative","InjectorSedative"
     ],
     "mapGUIPropMaps"  : null,
     "strPortraitImg"  : "paperdoll/held/portInjector01Full",
@@ -81,7 +80,7 @@
         "IsPrescription=1.0x1",
         "IsSolid=1.0x1.0",
         "IsTough=1.0x1.0",
-        "StatBasePrice=1x80.0",
+        "StatBasePrice=1x20.0",
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
@@ -117,7 +116,7 @@
     "strDesc" : "A compact sedative capsule for use with an injector for use on the rowdy patients. WARNING: May cause drowsiness, confusion, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
     "strLoot"    : null,
-    "nStackLimit"    : 10,
+    "nStackLimit"    : 1,
     "aInteractions" : [
         "DropItem",
         "DropItemStack",
@@ -134,7 +133,7 @@
         "IsPrescription=1.0x1",
         "IsSolid=1.0x1.0",
         "IsTough=1.0x1.0",
-        "StatBasePrice=1x80.0",
+        "StatBasePrice=1x20.0",
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
