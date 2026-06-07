@@ -4,14 +4,13 @@ name: Release
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    tags:
+      - '*' # Triggers ONLY when you push a tag (e.g., v1.0.0)
 
+permissions:
+  contents: write # Grants permission to create the release
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,7 +23,7 @@ jobs:
     steps:
       # Step 1: Node-free checkout to bypass deprecation warnings completely
       - name: Checkout code
-        uses: taiki-e/checkout-action@v1
+        uses: actions/checkout@v4
 
       # Step 2: Zip the contents
       - name: Archive repository
