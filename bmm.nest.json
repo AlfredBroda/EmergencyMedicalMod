@@ -1,0 +1,19 @@
+{
+  "schema": "bmm-nest-v1",
+  "mods": [
+    {
+      "id": "frederoo.emergency_medical",
+      "name": "Emergency Medical",
+      "type": "data",
+      "version": "0.1.2",
+      "game_versions": ["0.15.x"],
+      "summary": "Emergency medical mod for Ostranauts.",
+      "authors": ["Frederoo"],
+      "categories": ["data","medical"],
+      "asset_pattern": "EmergencyMedicalMod-*.zip",
+      "data": {
+        "folder": "EmergencyMedicalMod"
+      }
+    }
+  ]
+}

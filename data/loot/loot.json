@@ -75,5 +75,21 @@
       "aLoots"  : [
       ],
       "strType" : "trigger"
-    }
+    },
+    {
+      "strName" : "CONDWieldInjector01",
+      "aCOs" : [ "IsWieldingInjector=1.0x1" ],
+      "aLoots" : [],
+      "strType" : "condition"
+    },
+    {
+      "strName" : "CONDWieldInjector01Remove",
+      "aCOs" : [ "-IsWieldingInjector=1.0x1" ],
+      "aLoots" : [],
+      "strType" : "condition"
+    },
+    { "strName" : "CONDStatDrugPer", "aCOs" : [ "StatMass=1.0x0.001", "StatUSD=1.0x10.0" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcDrug01", "aCOs" : [ "DcDrug01=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcDrug02", "aCOs" : [ "DcDrug02=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcDrug03", "aCOs" : [ "DcDrug03=1.0x1" ], "aLoots" : [], "strType" : "condition" }
 ]

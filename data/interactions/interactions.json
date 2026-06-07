@@ -1,6 +1,6 @@
 [
   {
-    "strName" : "ACTInjectDrugAdranaline",
+    "strName" : "ACTInjectDrugAdrenaline",
     "strTitle" : "Inject Meds",
     "strDesc" : "[us] [decides] to inject [them] with adrenaline.",
     "strTooltip" : "Injects medication to boost cardiovascular function and awareness.",
@@ -9,8 +9,9 @@
     "fTargetPointRange" : 0,
     "strAnim" : "Tooling",
     "strBubble" : null,
+    "strColor" : "CO2White",
     "aInverse" : [
-      "ACTInjectDrugAdranalineAllow",
+      "ACTInjectDrugAdrenalineAllow",
       "ACTInjectDrugCancel",
       "ACTInjectDrugDone"
     ],
@@ -30,7 +31,7 @@
     "objLootModeSwitch" : null
   },
   {
-    "strName" : "ACTInjectDrugAdranalineAllow",
+    "strName" : "ACTInjectDrugAdrenalineAllow",
     "strTitle" : "Injecting Adrenaline",
     "strDesc" : "[us] [injects] [them].",
     "strActionGroup" : "Work",
@@ -46,7 +47,7 @@
     "bIgnoreFeelings" : true,
     "strCancelInteraction" : "ACTInjectDrugCancel",
     "aInverse" : [
-      "ACTInjectDrugAdranaline,[us],[them]",
+      "ACTInjectDrugAdrenaline,[us],[them]",
       "ACTInjectDrugDone,[us],[them]",
       "ACTInjectDrugCancel,[us],[them]"
     ],
@@ -69,6 +70,7 @@
     "fTargetPointRange" : 0,
     "strAnim" : "Tooling",
     "strBubble" : null,
+    "strColor" : "CO2White",
     "aInverse" : [
       "ACTInjectDrugSedativeAllow",
       "ACTInjectDrugCancel",

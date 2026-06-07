@@ -5,8 +5,8 @@
     "strSlotImageUnder" : null,
     "strIASlot" : null,
     "strIAUnslot" : null,
-    "strIASlotParents" : "SLOTWieldDefaultL",
-    "strIAUnslotParents" : "UNSLOTWieldDefaultL",
+    "strIASlotParents" : "SLOTWieldInjector01L",
+    "strIAUnslotParents" : "UNSLOTWieldInjector01L",
     "bWholeBody" : true,
     "mapMeshTextures" : [
     ]
@@ -17,8 +17,8 @@
     "strSlotImageUnder" : null,
     "strIASlot" : null,
     "strIAUnslot" : null,
-    "strIASlotParents" : "SLOTWieldDefaultR",
-    "strIAUnslotParents" : "UNSLOTWieldDefaultR",
+    "strIASlotParents" : "SLOTWieldInjector01R",
+    "strIAUnslotParents" : "UNSLOTWieldInjector01R",
     "bMirror" : true,
     "bWholeBody" : true,
     "mapMeshTextures" : [

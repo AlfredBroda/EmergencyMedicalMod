@@ -1,5 +1,6 @@
 [
+    { "strName" : "StatDrug", "strNameFriendly" : "Drug Content", "strColor" : "CO2White",  "strDesc"  : "[us]'s drug content in mg.", "aPer" : [ "CONDStatDrugPer" ] },
     { "strName" : "DcDrug01", "strNameFriendly" : "Drug: Empty", "strColor" : "Bad", "strDesc"  : "[us] [is] empty.", "bResetTimer" : false, "nDisplaySelf" : 2, "nDisplayOther" : 2, "bFatal" : false, "bRemoveAll"  : true, "aNext" : [ ], "fDuration" : 0.0  },
-    { "strName" : "DcDrug02", "strNameFriendly" : "Drug: Low", "strColor" : "Neutral", "strDesc"  : "[us] [is] nearly empty.", "bResetTimer" : false, "nDisplaySelf" : 2, "nDisplayOther" : 2, "bFatal" : false, "bRemoveAll"  : true, "aNext" : [ ], "fDuration" : 0.0  },
+    { "strName" : "DcDrug02", "strNameFriendly" : "Drug: Low", "strColor" : "Neutral", "strDesc"  : "[us] [is] used.", "bResetTimer" : false, "nDisplaySelf" : 2, "nDisplayOther" : 2, "bFatal" : false, "bRemoveAll"  : true, "aNext" : [ ], "fDuration" : 0.0  },
     { "strName" : "DcDrug03", "strNameFriendly" : "Drug: Full", "strColor" : "Good", "strDesc"  : "[us] [is] full.", "bResetTimer" : false, "nDisplaySelf" : 2, "nDisplayOther" : 2, "bFatal" : false, "bRemoveAll"  : true, "aNext" : [ ], "fDuration" : 0.0  }
 ]

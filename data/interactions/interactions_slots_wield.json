@@ -1,0 +1,63 @@
+[  
+	{
+		"strName" : "SLOTWieldInjector01L",
+		"strDesc" : "[them-subj] [is] wielding [us].",
+		"strThemType"       : "Other",
+		"nLogging"         : 0,
+		"bOpener"  :true,
+		"LootCondsUs"         : "CONDWieldedDefaultL",
+		"LootCondsThem"       : "CONDWieldInjector01",
+		"CTTestUs"          : null,
+		"CTTestThem"        : "TIsWielder",
+		"aAModesAddedThem"         : [
+			"ACTInjectDrugAdrenaline;AModeUse;CTWieldedL",
+			"ACTInjectDrugSedative;AModeUse;CTWieldedL"
+		]
+	},
+	{
+		"strName" : "SLOTWieldInjector01R",
+		"strDesc" : "[them-subj] [is] wielding [us].",
+		"strThemType"       : "Other",
+		"nLogging"         : 0,
+		"bOpener"  :true,
+		"LootCondsUs"         : "CONDWieldedDefaultR",
+		"LootCondsThem"       : "CONDWieldInjector01",
+		"CTTestUs"          : null,
+		"CTTestThem"        : "TIsWielder",
+		"aAModesAddedThem"         : [
+			"ACTInjectDrugAdrenaline;AModeUse;CTWieldedR",
+			"ACTInjectDrugSedative;AModeUse;CTWieldedR"
+		]
+	}
+	,
+	{
+		"strName" : "UNSLOTWieldInjector01L",
+		"strDesc" : "[them-subj] [is] no longer wielding [us].",
+		"strThemType"       : "Other",
+		"nLogging"         : 0,
+		"bOpener"  :true,
+		"LootCondsUs"         : "CONDWieldedDefaultLRemove",
+		"LootCondsThem"       : "CONDWieldInjector01Remove",
+		"CTTestUs"          : null,
+		"CTTestThem"        : "TIsWielder",
+		"aAModesAddedThem"         : [
+			"-ACTInjectDrugAdrenaline;AModeUse;CTWieldedL",
+			"-ACTInjectDrugSedative;AModeUse;CTWieldedL"
+		]
+	},
+	{
+		"strName" : "UNSLOTWieldInjector01R",
+		"strDesc" : "[them-subj] [is] no longer wielding [us].",
+		"strThemType"       : "Other",
+		"nLogging"         : 0,
+		"bOpener"  :true,
+		"LootCondsUs"         : "CONDWieldedDefaultRRemove",
+		"LootCondsThem"       : "CONDWieldInjector01Remove",
+		"CTTestUs"          : null,
+		"CTTestThem"        : "TIsWielder",
+		"aAModesAddedThem"         : [
+			"-ACTInjectDrugAdrenaline;AModeUse;CTWieldedR",
+			"-ACTInjectDrugSedative;AModeUse;CTWieldedR"
+		]
+	}
+]

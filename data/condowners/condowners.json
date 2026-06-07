@@ -8,8 +8,7 @@
     "strType"    : "Item",
     "strLoot"    : null,
     "aInteractions" : [
-        "ACTInjectDrugAdranaline",
-        "ACTInjectDrugSedative",
+        "EquipItem",
         "Inventory",
         "DropItem",
         "PickupItem"
@@ -43,7 +42,10 @@
         "ItmToolInjector01Full", "paperdoll/held/bodyInjector01LFull"
     ],
     "mapChargeProfiles"  : [
-        "Melee","MeleeAttackDefaultFragile"
+        "Melee","MeleeAttackDefaultFragile",
+        "Normal","InjectorAdrenaline",
+        "Normal","InjectorSedative"
+
     ],
     "mapGUIPropMaps"  : null,
     "strPortraitImg"  : "paperdoll/held/portInjector01Full",
@@ -62,7 +64,7 @@
     "strDesc" : "A compact adrenaline capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
     "strLoot"    : null,
-    "nStackLimit"    : 10,
+    "nStackLimit"    : 1,
     "aInteractions" : [
         "DropItem",
         "DropItemStack",
@@ -78,18 +80,22 @@
         "IsPocketable=1.0x1.0",
         "IsPrescription=1.0x1",
         "IsSolid=1.0x1.0",
+        "IsTough=1.0x1.0",
         "StatBasePrice=1x80.0",
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
-        "DcDrug03=1.0x1"
+        "StatDrug=1.0x2"
     ],
-    "aStartingCondRules": [],
+    "aStartingCondRules": [
+        "DcDrug=1"
+    ],
     "aSlotsWeHave": [],
     "mapCondTolerance": [],
     "mapPoints": [],
     "mapChargeProfiles": [
-        "Melee","MeleeAttackDefaultFragile"
+        "Melee","MeleeAttackDefault",
+        "Check","DrugCheck"
     ],
     "aUpdateCommands" : [
         "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
@@ -127,18 +133,20 @@
         "IsPocketable=1.0x1.0",
         "IsPrescription=1.0x1",
         "IsSolid=1.0x1.0",
+        "IsTough=1.0x1.0",
         "StatBasePrice=1x80.0",
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
-        "DcDrug03=1.0x1"
+        "StatDrug=1.0x2"
     ],
     "aStartingCondRules": [],
     "aSlotsWeHave": [],
     "mapCondTolerance": [],
     "mapPoints": [],
     "mapChargeProfiles": [
-        "Melee","MeleeAttackDefaultFragile"
+        "Melee","MeleeAttackDefault",
+        "Check","DrugCheck"
     ],
     "aUpdateCommands" : [
         "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"

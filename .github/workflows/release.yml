@@ -26,15 +26,18 @@ jobs:
         uses: actions/checkout@v4
 
       # Step 2: Zip the contents
-      - name: Archive repository
+      - name: Archive files
         run: |
-          zip -r "EmergencyMedicalMod-${{ github.ref_name }}.zip" . -x "*.git*"
+          mkdir "EmergencyMedicalMod"
+          mv data EmergencyMedicalMod/
+          mv images EmergencyMedicalMod/
+          mv mod_info.json EmergencyMedicalMod/
+          zip -r "EmergencyMedicalMod-${{ github.ref_name }}.zip" EmergencyMedicalMod
 
       # Step 3: Create a draft release and upload the zip file
-      - name: Create Draft Release
+      - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          draft: true
           files: EmergencyMedicalMod-${{ github.ref_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

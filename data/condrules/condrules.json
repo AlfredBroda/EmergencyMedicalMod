@@ -1,0 +1,11 @@
+[
+    {
+    "strName" : "DcDrug",
+    "strCond" : "StatDrug",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcDrug01", "fMin"     : 0.0, "fMax"     : 1.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcDrug02", "fMin"     : 1.0, "fMax"     : 2.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcDrug03", "fMin"     : 2.0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  }
+]

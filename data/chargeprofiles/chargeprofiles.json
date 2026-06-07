@@ -1,0 +1,35 @@
+[
+        {
+        "strName" : "DrugCheck",
+        "strCondName" : "StatDrug",
+        "fCondAmount" : 1.0,
+        "fDmgAmountUs" : 0.0000125,
+        "fDmgAmountCharge" : 0.0025,
+        "strItemCT" : null,
+        "nItemAmount" : 0,
+        "bUseContained" : false,
+        "bUseSelf" : true
+    },
+    {
+        "strName" : "InjectorAdrenaline",
+        "strCondName" : "StatDrug",
+        "fCondAmount" : 1.0,
+        "fDmgAmountUs" : 0.0000125,
+        "fDmgAmountCharge" : 0.0025,
+        "strItemCT" : "TIsDrugAdrenaline",
+        "nItemAmount" : 0,
+        "bUseContained" : true,
+        "bUseSelf" : false
+    },
+    {
+        "strName" : "InjectorSedative",
+        "strCondName" : "StatDrug",
+        "fCondAmount" : 1.0,
+        "fDmgAmountUs" : 0.0000125,
+        "fDmgAmountCharge" : 0.0025,
+        "strItemCT" : "TIsDrugSedative",
+        "nItemAmount" : 0,
+        "bUseContained" : true,
+        "bUseSelf" : false
+    }
+]
