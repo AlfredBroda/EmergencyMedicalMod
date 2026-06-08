@@ -32,7 +32,7 @@ jobs:
           mv data EmergencyMedicalMod/
           mv images EmergencyMedicalMod/
           mv mod_info.json EmergencyMedicalMod/
-          zip -r "EmergencyMedicalMod-${{ github.ref_name }}.zip" EmergencyMedicalMod
+          zip -r "EmergencyMedicalMod-${{ github.ref_name }}.zip" EmergencyMedicalMod bmm.nest.json
 
       # Step 3: Create a draft release and upload the zip file
       - name: Create Release
