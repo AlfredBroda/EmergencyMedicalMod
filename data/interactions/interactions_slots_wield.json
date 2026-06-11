@@ -10,8 +10,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"ACTInjectDrugAdrenaline;AModeBlank;CTWieldedL",
-            "ACTInjectDrugSedative;AModeBlank;CTWieldedL"
+			"ACTInjectDrugAdrenaline;AModeInjector;CTWieldedL",
+            "ACTInjectDrugSedative;AModeInjector;CTWieldedL"
 		]
 	},
 	{
@@ -25,8 +25,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"ACTInjectDrugAdrenaline;AModeBlank;CTWieldedR",
-            "ACTInjectDrugSedative;AModeBlank;CTWieldedR"
+			"ACTInjectDrugAdrenaline;AModeInjector;CTWieldedR",
+            "ACTInjectDrugSedative;AModeInjector;CTWieldedR"
 		]
 	},
 	{
@@ -40,8 +40,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"-ACTInjectDrugAdrenaline;AModeBlank;CTWieldedL",
-            "-ACTInjectDrugSedative;AModeBlank;CTWieldedL"
+			"-ACTInjectDrugAdrenaline;AModeInjector;CTWieldedL",
+            "-ACTInjectDrugSedative;AModeInjector;CTWieldedL"
 		]
 	},
 	{
@@ -55,8 +55,8 @@
 		"CTTestUs"          : null,
 		"CTTestThem"        : "TIsWielder",
 		"aAModesAddedThem"         : [
-			"-ACTInjectDrugAdrenaline;AModeBlank;CTWieldedR",
-            "-ACTInjectDrugSedative;AModeBlank;CTWieldedR"
+			"-ACTInjectDrugAdrenaline;AModeInjector;CTWieldedR",
+            "-ACTInjectDrugSedative;AModeInjector;CTWieldedR"
 		]
 	}
 ]

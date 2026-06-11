@@ -34,8 +34,8 @@
     {
       "strName" : "CONDAdrenalineInjectedUser", 
       "aCOs" : [
-        "TUpAchievement=1.0x2",
-        "TUpAltruism=1.0x20"
+        "StatAchievement=1.0x2",
+        "StatAltruism=1.0x20"
       ], 
       "aLoots" : [], 
       "strType" : "condition"
@@ -54,8 +54,8 @@
     {
       "strName" : "CONDSedativeInjectedUser", 
       "aCOs" : [
-        "TUpAchievement=1.0x2",
-        "TUpAltruism=1.0x5"
+        "StatAchievement=1.0x2",
+        "StatAltruism=1.0x5"
       ], 
       "aLoots" : [], 
       "strType" : "condition"
@@ -80,13 +80,13 @@
     },
     {
       "strName" : "CONDWieldInjector01",
-      "aCOs" : [ "IsWieldingInjector=1.0x1" ],
+      "aCOs" : [ "IsPunchStrongBlocked=1.0x1", "IsWieldingInjector=1.0x1" ],
       "aLoots" : [],
       "strType" : "condition"
     },
     {
       "strName" : "CONDWieldInjector01Remove",
-      "aCOs" : [ "-IsWieldingInjector=1.0x1" ],
+      "aCOs" : [ "-IsPunchStrongBlocked=1.0x1", "-IsWieldingInjector=1.0x1" ],
       "aLoots" : [],
       "strType" : "condition"
     },
