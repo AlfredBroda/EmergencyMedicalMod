@@ -5,11 +5,11 @@
       "id": "frederoo.emergency_medical",
       "name": "Emergency Medical",
       "type": "data",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "game_versions": ["0.15.x"],
       "summary": "Emergency medical mod for Ostranauts.",
       "authors": ["Frederoo"],
-      "categories": ["data","medical"],
+      "categories": ["data"],
       "asset_pattern": "EmergencyMedicalMod-*.zip",
       "data": {
         "folder": "EmergencyMedicalMod"
