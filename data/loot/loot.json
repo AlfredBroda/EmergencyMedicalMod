@@ -1,5 +1,7 @@
 [
-    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenaline=0.5x1", "ItmDrugSedative=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenalineFull=0.5x1", "ItmDrugSedativeFull=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+    { "strName" : "ItmDrugAdrenalineFull", "aCOs" : [ "ItmDrugAdrenaline=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : false, "strType" : "item" },
+    { "strName" : "ItmDrugSedativeFull", "aCOs" : [ "ItmDrugSedative=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : false, "strType" : "item" },
     {
       "strName" : "ACTInjectorDestroy",
       "aCOs"    : [

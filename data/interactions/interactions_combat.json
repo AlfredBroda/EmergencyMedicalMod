@@ -21,9 +21,7 @@
       "ACTInjectDrugDone,[us],[them]",
       "ACTInjectDrugCancel,[us],[them]"
     ],
-    "aLootItms" : [
-      "use,CT[us],true"
-    ],
+    "aLootItms" : [],
     "LootCondsUs" : "CONDAdrenalineInjectedUser",
     "LootCondsThem" : "CONDAdrenalineInjectedSubject",
     "LootVFXUs" : null,
@@ -62,9 +60,7 @@
     "LootCTsUs" : null,
     "LootCTsThem" : null,
     "strLootRELChangeThemSeesUs"  : "RELAcquaintance",
-    "aLootItms" : [
-      "use,CT[us],true"
-    ]
+    "aLootItms" : []
   },
   {
     "strName" : "ACTInjectDrugCancel",
