@@ -1,7 +1,5 @@
 [
-    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenalineFull=0.5x1", "ItmDrugSedativeFull=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
-    { "strName" : "ItmDrugAdrenalineFull", "aCOs" : [ "ItmDrugAdrenaline=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : false, "strType" : "item" },
-    { "strName" : "ItmDrugSedativeFull", "aCOs" : [ "ItmDrugSedative=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : false, "strType" : "item" },
+    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenaline=0.5x1", "ItmDrugSedative=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
     {
       "strName" : "ACTInjectorDestroy",
       "aCOs"    : [
@@ -26,7 +24,7 @@
       "aCOs" : [
         "-StatSleep=1.0x1.75",
         "-Unconscious=1.0x1",
-        "-Stunned=1.0x1.0",
+        "-Sedated=1.0x1.0",
         "ThreshStatSleepComfort=1.0x0.8",
         "StatPain=1.0x10.0"
       ], 
@@ -46,7 +44,8 @@
       "strName" : "CONDSedativeInjectedSubject", 
       "aCOs" : [
         "Unconscious=1.0x1",
-        "StatPain=1.0x10.0",
+        "Prone=1.0x1",
+        "Sedated=1.0x1",
         "ThreshStatSleep=1.0x0.8", 
         "StatSleepComfort=1.0x10"
       ], 

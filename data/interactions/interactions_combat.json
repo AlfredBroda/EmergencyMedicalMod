@@ -27,7 +27,7 @@
     "LootVFXUs" : null,
     "LootAudioUs" : null,
     "CTTestUs" : "TIsHumanAwakeNotProne",
-    "CTTestThem" : "TIsHuman"
+    "CTTestThem" : "TIsHumanUnconscious"
   },
   {
     "strName" : "ACTInjectDrugSedative",

@@ -84,7 +84,7 @@
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
-        "StatDrug=1.0x2"
+        "StatDrug=1.0x9"
     ],
     "aStartingCondRules": [
         "DcDrug=1"
@@ -137,7 +137,7 @@
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
-        "StatDrug=1.0x2"
+        "StatDrug=1.0x9"
     ],
     "aStartingCondRules": [],
     "aSlotsWeHave": [],
