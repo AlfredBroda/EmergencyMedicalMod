@@ -1,5 +1,6 @@
 [
     { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenaline=0.5x1", "ItmDrugSedative=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+    { "strName" : "ItmToolInjector01New", "aCOs" : [ "ItmToolInjector01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : false, "strType" : "item" },
     {
       "strName" : "ACTInjectorDestroy",
       "aCOs"    : [
@@ -91,8 +92,13 @@
       "aLoots" : [],
       "strType" : "condition"
     },
-    { "strName" : "CONDStatDrugPer", "aCOs" : [ "StatMass=1.0x0.001", "StatUSD=1.0x10.0" ], "aLoots" : [], "strType" : "condition" },
-    { "strName" : "CONDDcDrug01", "aCOs" : [ "DcDrug01=1.0x1" ], "aLoots" : [], "strType" : "condition" },
-    { "strName" : "CONDDcDrug02", "aCOs" : [ "DcDrug02=1.0x1" ], "aLoots" : [], "strType" : "condition" },
-    { "strName" : "CONDDcDrug03", "aCOs" : [ "DcDrug03=1.0x1" ], "aLoots" : [], "strType" : "condition" }
+    { "strName" : "CONDStatDrugAdrenalinePer", "aCOs" : [ "StatMass=1.0x0.001", "StatUSD=1.0x10.0" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcAdrenaline01", "aCOs" : [ "DcDrugAdrenaline01=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcAdrenaline02", "aCOs" : [ "DcDrugAdrenaline02=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcAdrenaline03", "aCOs" : [ "DcDrugAdrenaline03=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDStatDrugSedativePer", "aCOs" : [ "StatMass=1.0x0.001", "StatUSD=1.0x7.0" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcSedative01", "aCOs" : [ "DcDrugSedative01=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcSedative02", "aCOs" : [ "DcDrugSedative02=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcSedative03", "aCOs" : [ "DcDrugSedative03=1.0x1" ], "aLoots" : [], "strType" : "condition" }
+
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "strName" : "ItmOKLGMedKioskInv",
+    "aLoots"  : [
+      "--ADD--",
+      "ItmToolInjector01New=0.2x1",
+      "ItmDrugAdrenaline=0.3x1-3",
+      "ItmDrugSedative=0.3x1-2"
+    ],
+    "strType" : "item"
+  }
+]

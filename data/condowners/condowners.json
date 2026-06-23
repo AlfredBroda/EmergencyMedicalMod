@@ -84,17 +84,17 @@
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
-        "StatDrug=1.0x9"
+        "StatDrugAdrenaline=1.0x9"
     ],
     "aStartingCondRules": [
-        "DcDrug=1"
+        "DcAdrenaline=1"
     ],
     "aSlotsWeHave": [],
     "mapCondTolerance": [],
     "mapPoints": [],
     "mapChargeProfiles": [
         "Melee","MeleeAttackDefault",
-        "Check","DrugCheck"
+        "Check","AdrenalineCheck"
     ],
     "aUpdateCommands" : [
         "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
@@ -137,7 +137,7 @@
         "StatMass=1.0x0.05",
         "StatDamageMax=1.0x4",
         "IsCategoryMedical=1.0x1",
-        "StatDrug=1.0x9"
+        "StatDrugSedative=1.0x9"
     ],
     "aStartingCondRules": [],
     "aSlotsWeHave": [],
@@ -145,7 +145,7 @@
     "mapPoints": [],
     "mapChargeProfiles": [
         "Melee","MeleeAttackDefault",
-        "Check","DrugCheck"
+        "Check","SedativeCheck"
     ],
     "aUpdateCommands" : [
         "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"

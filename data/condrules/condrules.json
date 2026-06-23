@@ -1,11 +1,20 @@
 [
     {
-    "strName" : "DcDrug",
-    "strCond" : "StatDrug",
+    "strName" : "DcAdrenaline",
+    "strCond" : "StatDrugAdrenaline",
     "aThresholds" : [
-      { "strLootNew" : "CONDDcDrug01", "fMin"     : 0.0, "fMax"     : 3.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
-      { "strLootNew" : "CONDDcDrug02", "fMin"     : 3.0, "fMax"     : 6.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
-      { "strLootNew" : "CONDDcDrug03", "fMin"     : 6.0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+      { "strLootNew" : "CONDDcAdrenaline01", "fMin"     : 0.0, "fMax"     : 3.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcAdrenaline02", "fMin"     : 3.0, "fMax"     : 6.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcAdrenaline03", "fMin"     : 6.0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
+    ]
+  },
+  {
+    "strName" : "DcSedative",
+    "strCond" : "StatDrugSedative",
+    "aThresholds" : [
+      { "strLootNew" : "CONDDcSedative01", "fMin"     : 0.0, "fMax"     : 3.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcSedative02", "fMin"     : 3.0, "fMax"     : 6.0, "fMinAdd"  : 1, "fMaxAdd"  : -1 },
+      { "strLootNew" : "CONDDcSedative03", "fMin"     : 6.0, "fMax"     : 9e99, "fMinAdd"  : 1, "fMaxAdd"  : -1 }
     ]
   }
 ]
