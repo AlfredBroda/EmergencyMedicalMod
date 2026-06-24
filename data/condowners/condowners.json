@@ -1,5 +1,5 @@
 [
-{
+  {
     "strName" : "ItmToolInjector01",
     "strNameShort" : "Injector",
     "strNameFriendly" : "Alkemia Medical Injector",
@@ -44,7 +44,8 @@
     "mapChargeProfiles"  : [
         "Melee","MeleeAttackDefaultFragile",
         "Adrenaline","InjectorAdrenaline",
-        "Sedative","InjectorSedative"
+        "Sedative","InjectorSedative",
+        "Regen","InjectorRegen"
     ],
     "mapGUIPropMaps"  : null,
     "strPortraitImg"  : "paperdoll/held/portInjector01Full",
@@ -57,8 +58,8 @@
   },
   {
     "strName" : "ItmDrugAdrenaline",
-    "strNameShort" : "Adrenaline Capsule",
-    "strNameFriendly" : "Injector Adrenaline Capsule",
+    "strNameShort" : "WakeUp Capsule",
+    "strNameFriendly" : "Injector Rousing Capsule",
     "strItemDef" : "ItmDrugAdrenaline",
     "strDesc" : "A compact adrenaline capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
@@ -87,20 +88,20 @@
         "StatDrugAdrenaline=1.0x9"
     ],
     "aStartingCondRules": [
-        "DcAdrenaline=1"
+        "DcDrugAdrenaline=1"
     ],
     "aSlotsWeHave": [],
     "mapCondTolerance": [],
     "mapPoints": [],
     "mapChargeProfiles": [
         "Melee","MeleeAttackDefault",
-        "Check","AdrenalineCheck"
+        "Check","DrugAdrenalineCheck"
     ],
     "aUpdateCommands" : [
         "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
     ],
     "mapGUIPropMaps"  : null,
-    "strPortraitImg"  : "paperdoll/held/portBatteryDisp01",
+    "strPortraitImg"  : "paperdoll/held/portDrugCapsule",
     "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound",
     "mapSlotEffects" : [
         "heldL","HeldItmDefaultL",
@@ -110,7 +111,7 @@
   },
   {
     "strName" : "ItmDrugSedative",
-    "strNameShort" : "Sedative Capsule",
+    "strNameShort" : "SedateU Capsule",
     "strNameFriendly" : "Injector Sedative Capsule",
     "strItemDef" : "ItmDrugSedative",
     "strDesc" : "A compact sedative capsule for use with an injector for use on the rowdy patients. WARNING: May cause drowsiness, confusion, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
@@ -139,19 +140,75 @@
         "IsCategoryMedical=1.0x1",
         "StatDrugSedative=1.0x9"
     ],
-    "aStartingCondRules": [],
+    "aStartingCondRules": [
+        "DcDrugSedative=1"
+    ],
+
     "aSlotsWeHave": [],
     "mapCondTolerance": [],
     "mapPoints": [],
     "mapChargeProfiles": [
         "Melee","MeleeAttackDefault",
-        "Check","SedativeCheck"
+        "Check","DrugSedativeCheck"
     ],
     "aUpdateCommands" : [
         "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
     ],
     "mapGUIPropMaps"  : null,
-    "strPortraitImg"  : "paperdoll/held/portBatteryDisp01",
+    "strPortraitImg"  : "paperdoll/held/portDrugCapsule",
+    "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound",
+    "mapSlotEffects" : [
+        "heldL","HeldItmDefaultL",
+        "heldR","HeldItmDefaultR"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmDrugRegen",
+    "strNameShort" : "QuickHeal Capsule",
+    "strNameFriendly" : "Injector Regenerative Capsule",
+    "strItemDef" : "ItmDrugRegen",
+    "strDesc" : "A compact regenerative capsule for use with an injector for emergency wound care. WARNING: May cause nausea, dizziness, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
+    "strType"    : "Item",
+    "strLoot"    : null,
+    "nStackLimit"    : 1,
+    "aInteractions" : [
+        "DropItem",
+        "DropItemStack",
+        "PickupItem",
+        "PickupItemStack"
+    ],
+    "aStartingConds" : [
+        "IsDrug=1.0x1",
+        "IsAlkemia=1.0x1",
+        "IsInjector01Capsule=1.0x1",
+        "IsWaterproof=1.0x1",
+        "IsFireproof=1.0x1",
+        "IsPocketable=1.0x1.0",
+        "IsPrescription=1.0x1",
+        "IsSolid=1.0x1.0",
+        "IsTough=1.0x1.0",
+        "StatBasePrice=1x20.0",
+        "StatMass=1.0x0.05",
+        "StatDamageMax=1.0x4",
+        "IsCategoryMedical=1.0x1",
+        "StatDrugRegen=1.0x9"
+    ],
+    "aStartingCondRules": [
+        "DcDrugRegen=1"
+    ],
+    "aSlotsWeHave": [],
+    "mapCondTolerance": [],
+    "mapPoints": [],
+    "mapChargeProfiles": [
+        "Melee","MeleeAttackDefault",
+        "Check","DrugRegenCheck"
+    ],
+    "aUpdateCommands" : [
+        "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "paperdoll/held/portDrugCapsule",
     "strAudioEmitter" : "ItmSmallMetalPartsGeneralSound",
     "mapSlotEffects" : [
         "heldL","HeldItmDefaultL",

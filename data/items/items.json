@@ -92,5 +92,30 @@
       "Blank", "Blank", "Blank",
       "Blank", "Blank", "Blank"
     ]  
+  },
+    {
+    "strName" : "ItmDrugRegen",
+    "strImg"  : "ItmDrugCapsule",
+    "strImgNorm"  : "ItmDrugCapsulen",
+    "strImgDamaged" : "",
+    "strDmgColor" : "DamageTintDarkGrey",
+    "bLerp" : false,
+    "fDmgComplexity" : 800,
+    "nDmgMode" : 1,
+    "fZScale"  : 0.2,
+    "nCols"  : 1,
+    "aSocketAdds"    : [
+      "TILItemAdds"
+    ],
+    "aSocketForbids"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "TILItemForbids", "Blank",
+      "Blank", "Blank", "Blank"
+    ],
+    "aSocketReqs"    : [
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank",
+      "Blank", "Blank", "Blank"
+    ]  
   }
 ]

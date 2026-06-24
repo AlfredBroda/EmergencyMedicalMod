@@ -1,6 +1,6 @@
 [
     {
-        "strName" : "AdrenalineCheck",
+        "strName" : "DrugAdrenalineCheck",
         "strCondName" : "StatDrugAdrenaline",
         "fCondAmount" : 1.0,
         "fDmgAmountUs" : 0.0000125,
@@ -11,8 +11,19 @@
         "bUseSelf" : true
     },
     {
-        "strName" : "SedativeCheck",
+        "strName" : "DrugSedativeCheck",
         "strCondName" : "StatDrugSedative",
+        "fCondAmount" : 1.0,
+        "fDmgAmountUs" : 0.0000125,
+        "fDmgAmountCharge" : 0.0025,
+        "strItemCT" : null,
+        "nItemAmount" : 0,
+        "bUseContained" : false,
+        "bUseSelf" : true
+    },
+    {
+        "strName" : "DrugRegenCheck",
+        "strCondName" : "StatDrugRegen",
         "fCondAmount" : 1.0,
         "fDmgAmountUs" : 0.0000125,
         "fDmgAmountCharge" : 0.0025,
@@ -35,6 +46,17 @@
     {
         "strName" : "InjectorSedative",
         "strCondName" : "StatDrugSedative",
+        "fCondAmount" : 1.0,
+        "fDmgAmountUs" : 0.0000125,
+        "fDmgAmountCharge" : 0.0025,
+        "strItemCT" : null,
+        "nItemAmount" : 0,
+        "bUseContained" : true,
+        "bUseSelf" : false
+    },
+    {
+        "strName" : "InjectorRegen",
+        "strCondName" : "StatDrugRegen",
         "fCondAmount" : 1.0,
         "fDmgAmountUs" : 0.0000125,
         "fDmgAmountCharge" : 0.0025,

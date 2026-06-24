@@ -4,8 +4,9 @@
     "aValues" : [
         "IsAlkemia","Alkemia","[us] [is] an Alkemia Pharmaceutical product.","2","2","Neutral","false",
         "IsInjector01Capsule","Injector Capsule","[us] [is] a medical injector capsule.","2","2","Neutral","false",
-        "IsDrugAdrenaline","Adrenaline","[us] [is] an adrenaline medication.","2","2","Neutral","false",
-        "IsDrugSedative","Sedative","[us] [is] a sedative medication.","2","2","Neutral","false",
+        "IsDrugAdrenaline","WakeUp","[us] [is] an WakeUp drug.","2","2","Neutral","false",
+        "IsDrugSedative","SedateU","[us] [is] a SedateU drug.","2","2","Neutral","false",
+        "IsDrugRegen","QuickHeal","[us] [is] a QuickHeal drug.","2","2","Neutral","false",
         "IsWieldingInjector","Wielding Injector","[us] [is] wielding an injector.","2","2","Neutral","false"
     ]
   }

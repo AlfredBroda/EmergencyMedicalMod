@@ -1,5 +1,5 @@
 [
-    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenaline=0.5x1", "ItmDrugSedative=0.5x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
+    { "strName" : "ItmToolInjector01Used", "aCOs" : [ "ItmToolInjector01=1.0x1", "ItmDrugAdrenaline=0.33x1|ItmDrugSedative=0.33x1|ItmDrug" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : true, "strType" : "item" },
     { "strName" : "ItmToolInjector01New", "aCOs" : [ "ItmToolInjector01=1.0x1" ], "aLoots"  : [ ], "bSuppress" : true, "bNested" : false, "strType" : "item" },
     {
       "strName" : "ACTInjectorDestroy",
@@ -23,11 +23,9 @@
     {
       "strName" : "CONDAdrenalineInjectedSubject", 
       "aCOs" : [
-        "-StatSleep=1.0x1.75",
+        "Roused=1.0x1.0",
         "-Unconscious=1.0x1",
-        "-Sedated=1.0x1.0",
-        "ThreshStatSleepComfort=1.0x0.8",
-        "StatPain=1.0x10.0"
+        "-Sedated=1.0x1.0"
       ], 
       "aLoots" : [], 
       "strType" : "condition" 
@@ -42,16 +40,17 @@
       "strType" : "condition"
     },
     {
-      "strName" : "CONDSedativeInjectedSubject", 
+      "strName" : "CTSedativeInjectedSubject", 
       "aCOs" : [
         "Unconscious=1.0x1",
         "Prone=1.0x1",
         "Sedated=1.0x1",
+        "IsSubdued=1.0x1",
         "ThreshStatSleep=1.0x0.8", 
         "StatSleepComfort=1.0x10"
       ], 
       "aLoots" : [], 
-      "strType" : "condition" 
+      "strType" : "trigger" 
     },
     {
       "strName" : "CONDSedativeInjectedUser", 
@@ -59,6 +58,24 @@
         "StatAchievement=1.0x2",
         "StatAltruism=1.0x5"
       ], 
+      "aLoots" : [], 
+      "strType" : "condition"
+    },
+    {
+      "strName" : "CTRegenInjectedSubject", 
+      "aCOs" : [
+        "TUpNanoFirstAid=1.0x1"
+      ], 
+      "aLoots" : [
+      ], 
+      "strType" : "trigger" 
+    },
+    {
+      "strName" : "CONDRegenInjectedUser", 
+      "aCOs" : [
+        "StatAchievement=1.0x2",
+        "StatAltruism=1.0x20"
+      ],
       "aLoots" : [], 
       "strType" : "condition"
     },
@@ -75,6 +92,15 @@
       "strName" : "CTDrugSedative",
       "aCOs"    : [
         "TIsDrugSedative=1.0x1"
+      ],
+      "aLoots"  : [
+      ],
+      "strType" : "trigger"
+    },
+    {
+      "strName" : "CTDrugRegen",
+      "aCOs"    : [
+        "TIsDrugRegen=1.0x1"
       ],
       "aLoots"  : [
       ],
@@ -99,6 +125,9 @@
     { "strName" : "CONDStatDrugSedativePer", "aCOs" : [ "StatMass=1.0x0.001", "StatUSD=1.0x7.0" ], "aLoots" : [], "strType" : "condition" },
     { "strName" : "CONDDcSedative01", "aCOs" : [ "DcDrugSedative01=1.0x1" ], "aLoots" : [], "strType" : "condition" },
     { "strName" : "CONDDcSedative02", "aCOs" : [ "DcDrugSedative02=1.0x1" ], "aLoots" : [], "strType" : "condition" },
-    { "strName" : "CONDDcSedative03", "aCOs" : [ "DcDrugSedative03=1.0x1" ], "aLoots" : [], "strType" : "condition" }
-
+    { "strName" : "CONDDcSedative03", "aCOs" : [ "DcDrugSedative03=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDStatDrugRegenPer", "aCOs" : [ "StatMass=1.0x0.001", "StatUSD=1.0x15.0" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcRegen01", "aCOs" : [ "DcDrugRegen01=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcRegen02", "aCOs" : [ "DcDrugRegen02=1.0x1" ], "aLoots" : [], "strType" : "condition" },
+    { "strName" : "CONDDcRegen03", "aCOs" : [ "DcDrugRegen03=1.0x1" ], "aLoots" : [], "strType" : "condition" }
 ]
