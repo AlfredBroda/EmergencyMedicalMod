@@ -9,6 +9,6 @@
     "fDmgBlunt"  : 0.0,
     "fDmgCut"  : 0.0,
     "fDmgEnv"  : 2.0,
-    "fPenetration"  : 0.0
+    "fPenetration"  : 0.75
   }
 ]

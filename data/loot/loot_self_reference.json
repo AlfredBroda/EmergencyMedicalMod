@@ -1,0 +1,6 @@
+[
+    { "strName" : "ItmToolInjector01", "aCOs"    : [ "ItmToolInjector01=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+    { "strName" : "ItmDrugAdrenaline", "aCOs"    : [ "ItmDrugAdrenaline=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+    { "strName" : "ItmDrugSedative", "aCOs"    : [ "ItmDrugSedative=1.0x1" ], "aLoots"  : [ ], "strType" : "item" },
+    { "strName" : "ItmDrugRegen", "aCOs"    : [ "ItmDrugRegen=1.0x1" ], "aLoots"  : [ ], "strType" : "item" }
+]

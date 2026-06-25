@@ -56,13 +56,13 @@
       "ACTInjectDrugCancel,[us],[them]"
     ],
     "LootCondsUs" : "CONDSedativeInjectedUser",
-    "LootCondsThem" : null,
+    "LootCondsThem" : "CONDSedativeInjectedSubject",
     "LootVFXUs" : null,
     "LootAudioUs" : null,
     "CTTestUs" : "TIsHumanAwakeNotProne",
     "CTTestThem" : "TIsHumanAwake",
     "LootCTsUs" : null,
-    "LootCTsThem" : "CTSedativeInjectedSubject",
+    "LootCTsThem" : null,
     "strLootRELChangeThemSeesUs"  : "RELAcquaintance",
     "aLootItms" : []
   },

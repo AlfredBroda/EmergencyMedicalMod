@@ -2,7 +2,7 @@
   {
     "strName" : "ItmToolInjector01",
     "strNameShort" : "Injector",
-    "strNameFriendly" : "Alkemia Medical Injector",
+    "strNameFriendly" : "Medical Injector",
     "strDesc" : "An Alkemia Pharmaceutical pneumatic subdermal injector, for administering various medications.",
     "strItemDef" : "ItmToolInjector01",
     "strType"    : "Item",
@@ -59,9 +59,9 @@
   {
     "strName" : "ItmDrugAdrenaline",
     "strNameShort" : "WakeUp Capsule",
-    "strNameFriendly" : "Injector Rousing Capsule",
+    "strNameFriendly" : "Injector WakeUp Capsule",
     "strItemDef" : "ItmDrugAdrenaline",
-    "strDesc" : "A compact adrenaline capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
+    "strDesc" : "A compact rousing capsule for use with an injector for emergency cardiovascular support. WARNING: May cause increased heart rate, anxiety, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
     "strLoot"    : null,
     "nStackLimit"    : 1,
@@ -112,7 +112,7 @@
   {
     "strName" : "ItmDrugSedative",
     "strNameShort" : "SedateU Capsule",
-    "strNameFriendly" : "Injector Sedative Capsule",
+    "strNameFriendly" : "Injector SedateU Capsule",
     "strItemDef" : "ItmDrugSedative",
     "strDesc" : "A compact sedative capsule for use with an injector for use on the rowdy patients. WARNING: May cause drowsiness, confusion, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
@@ -166,7 +166,7 @@
   {
     "strName" : "ItmDrugRegen",
     "strNameShort" : "QuickHeal Capsule",
-    "strNameFriendly" : "Injector Regenerative Capsule",
+    "strNameFriendly" : "Injector QuickHeal Capsule",
     "strItemDef" : "ItmDrugRegen",
     "strDesc" : "A compact regenerative capsule for use with an injector for emergency wound care. WARNING: May cause nausea, dizziness, and other side effects. For a full list, please refer to the leaflet obtained at purchase.",
     "strType"    : "Item",
