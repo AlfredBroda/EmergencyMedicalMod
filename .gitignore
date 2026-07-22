@@ -1,0 +1,11 @@
+.vs/
+.vscode/
+loading_order.json
+Minor_Fixes_Plus/
+.mailmap
+/NXT_AltStart_CYOS
+/NXT_AltStart_CYOA
+*.zip
+/PurpleWave
+/Ostranauts_9000
+__pycache__/
