@@ -24,11 +24,13 @@
       "SeekSleepSimpleWake"
     ],
     "aLootItms" : [],
-    "LootCondsUs" : "CONDAdrenalineInjectedUser",
-    "LootCondsThem" : "CONDAdrenalineInjectedSubject",
-    "LootCTsThem" : null,
+    "LootCondsUs" : null,
+    "LootCondsThem" : null,
     "LootVFXUs" : null,
     "LootAudioUs" : null,
+    "strLootRELChangeThemSeesUs"  : "RELAcquaintance",
+    "LootCTsUs" : "CTAdrenalineInjectedUser",
+    "LootCTsThem" : "CTAdrenalineInjectedSubject",
     "CTTestUs" : "TIsHumanAwakeNotProne",
     "CTTestThem" : "TIsHumanUnconscious"
   },
@@ -55,15 +57,14 @@
       "ACTInjectDrugDone,[us],[them]",
       "ACTInjectDrugCancel,[us],[them]"
     ],
-    "LootCondsUs" : "CONDSedativeInjectedUser",
-    "LootCondsThem" : "CONDSedativeInjectedSubject",
+    "LootCondsUs" : null,
+    "LootCondsThem" : null,
     "LootVFXUs" : null,
     "LootAudioUs" : null,
     "CTTestUs" : "TIsHumanAwakeNotProne",
     "CTTestThem" : "TIsHumanAwake",
-    "LootCTsUs" : null,
-    "LootCTsThem" : null,
-    "strLootRELChangeThemSeesUs"  : "RELAcquaintance",
+    "LootCTsUs" : "CTSedativeInjectedUser",
+    "LootCTsThem" : "CTSedativeInjectedSubject",
     "aLootItms" : []
   },
   {
@@ -89,12 +90,14 @@
       "ACTInjectDrugCancel,[us],[them]"
     ],
     "aLootItms" : [],
-    "LootCondsUs" : "CONDRegenInjectedUser",
+    "LootCondsUs" : null,
     "LootCondsThem" : null,
+    "LootCTsUs" : "CTRegenInjectedUser",
     "LootCTsThem"   : "CTRegenInjectedSubject",
     "LootVFXUs" : null,
     "LootAudioUs" : null,
     "CTTestUs" : "TIsHumanAwakeNotProne",
+    "strLootRELChangeThemSeesUs"  : "RELAcquaintance",
     "CTTestThem" : "TIsHuman"
   },
   {

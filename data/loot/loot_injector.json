@@ -1,0 +1,56 @@
+[
+  {
+    "strName": "CTAdrenalineInjectedSubject",
+    "aCOs": [
+        "TDnUnconscious=1.0x1",
+        "TDnSleep=1.0x1",
+        "TDnProne=1.0x1"
+    ],
+    "strType": "trigger"
+  },
+  {
+    "strName": "CTSedativeInjectedSubject",
+    "aCOs": [
+        "TUpUnconscious=1.0x1",
+        "TUpSleep=1.0x1",
+        "TUpProne=1.0x1",
+        "TDnRoused=1.0x1"
+    ],
+    "strType": "trigger"
+  },
+  {
+    "strName" : "CTRegenInjectedSubject", 
+    "aCOs" : [
+      "TUpNanoFirstAid=1.0x1"
+    ], 
+    "strType" : "trigger" 
+  },
+  {
+    "strName" : "CTAdrenalineInjectedUser", 
+    "aCOs" : [
+      "TUpAchievement=1.0x10",
+      "TUpAltruism=1.0x4"
+    ], 
+    "aLoots" : [], 
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CTSedativeInjectedUser", 
+    "aCOs" : [
+      "TUpAchievement=1.0x5",
+      "TUpThreat=1.0x10",
+      "TUpAltruism=1.0x5"
+    ], 
+    "aLoots" : [], 
+    "strType" : "trigger"
+  },
+  {
+    "strName" : "CTRegenInjectedUser", 
+    "aCOs" : [
+      "TUpAchievement=1.0x5",
+      "TUpAltruism=1.0x10"
+    ],
+    "aLoots" : [], 
+    "strType" : "trigger"
+  }
+]
